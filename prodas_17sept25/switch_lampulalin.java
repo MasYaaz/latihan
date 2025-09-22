@@ -10,11 +10,11 @@ public class switch_lampulalin {
             String lampu = scan.next();
 
             String hasil = switch (lampu) {
-                case "merah" ->
+                case "Merah" ->
                     "Berhenti Dulu Mas!";
-                case "kuning" ->
+                case "Kuning" ->
                     "Hati-Hati Mas!";
-                case "hijau" ->
+                case "Hijau" ->
                     "Monggo Jalan.";
                 default ->
                     "Lampunya Mati";
