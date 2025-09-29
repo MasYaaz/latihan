@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class switch_lampulalin {
 
     public static void main(String[] args) {
+        // Fungsi Try yang didalamnya ada scanner
         try (Scanner scan = new Scanner(System.in)) {
             System.out.println("Warna Lampu Lalu Lintas :");
-            String lampu = scan.next();
 
+            // Deklarasi Variabel
+            String lampu = scan.next();
             String hasil = switch (lampu) {
                 case "Merah" ->
                     "Berhenti Dulu Mas!";
@@ -20,6 +22,7 @@ public class switch_lampulalin {
                     "Lampunya Mati";
             };
 
+            // Output
             System.out.println(hasil);
         }
     }

@@ -5,14 +5,20 @@ import java.util.Scanner;
 public class kuliah {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
+
+            // Deklarasi Variabel
             String jurusan, kls;
             String harga;
+
+            // Jurusan & Kodenya
             System.out.println("1. Jurusan Ekonomi - Kelas Pagi");
             System.out.println("2. Jurusan Ekonomi - Kelas Malam");
             System.out.println("3. Jurusan Sastra Indonesia - Kelas Pagi");
             System.out.println("4. Jurusan Sastra Indonesia - Kelas Malam");
             System.out.print("Masukkan kode : ");
             int pilih = input.nextInt();
+
+            // Fungsi Switch Case
             switch (pilih) {
                 case 1 -> {
                     jurusan = "Ekonomi";
