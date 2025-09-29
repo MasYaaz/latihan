@@ -1,31 +1,32 @@
 package prodas_24sept25;
 
-import java.util.Scanner;
-
 public class tugasloopfornested {
 
     public static void main(String args[]) {
 
         // Deklarasi Variabel
-        int jumlah, i, j;
+        int i, j;
 
-        // Scanner yang dideklarasikan dengan try
-        try (Scanner inputan = new Scanner(System.in)) {
+        // Variabel String Array 1 Dimensi
+        String[] jenis = {"Makanan", "Minuman"};
 
-            // Tulisan diatas input Scanner
-            System.out.println("Masukkan Inputan Angka?");
+        // Variabel String Array 2 Dimensi
+        String[][] daftar = {
+            {"Nasi Goreng", "Nasi Kebuli", "Mie Ayam"},
+            {"Es Teh", "Kopi Hangat", "Susu Jahe"}
+        };
 
-            // Tempat Scanner dipakai
-            jumlah = inputan.nextInt();
+        // Fungsi perulangan For nested untuk menampilkan daftar jenis menu beserta daftarnya
+        // For yang pertama untuk memunculkan jenis makanan dengan iterasi / batas dari jumlah baris array daftar
+        for (i = 0; i < daftar.length; i++) {
+            System.out.println(jenis[i] + " :");
 
-            // Fungsi perulangan For nested untuk membentuk tangga
-            // bintang dengan perkalian 2 dengan jumlah sesuai input scanner
-            for (i = 1; i <= jumlah; i++) {
-                for (j = 1; j <= i * 2; j++) {
-                    System.out.print("*");
-                }
-                System.out.println();
+            // For kedua untuk mencetak daftar makanan dengan iterasi isi array daftar
+            // Iterasi menggunakan daftar[i].length karena variabel i sudah terisi di for pertama
+            for (j = 0; j < daftar[i].length; j++) {
+                System.out.println(" -" + daftar[i][j]);
             }
+            System.out.println();
         }
     }
 }

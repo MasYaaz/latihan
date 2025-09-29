@@ -8,21 +8,30 @@ public class tugasloopdowhilescanner {
         int pilihan;
         String jawaban;
         try (Scanner scan = new Scanner(System.in)) {
-            System.out.println("Masukan Nilai!");
+            System.out.println("Mau Pesan Makanan Apa?");
+            System.out.println("1. Nasi Padang");
+            System.out.println("2. Ayam Goreng + Nasi");
+            System.out.println("3. Sate + Nasi");
+            System.out.println("4. Tidak Jadi");
+            System.out.println("----------------------------------");
             do {
+                System.out.println("Masukkan kodenya untuk tampilkan harganya!");
                 pilihan = scan.nextInt();
                 jawaban = switch (pilihan) {
                     case 1 ->
-                        "Selamat Datang!";
+                        "Rp. 15.000";
                     case 2 ->
-                        "Selamat Tinggal!";
+                        "Rp. 12.000";
                     case 3 ->
-                        "Aplikasi Selesai!";
+                        "Rp. 10.000";
+                    case 4 ->
+                        "Oke Terima Kasih...";
                     default ->
-                        "Input Tidak Valid";
+                        "Masukkan kode nomernya dengan benar!";
                 };
                 System.out.println(jawaban);
-            } while (pilihan != 3);
+                System.out.println("----------------------------------");
+            } while (pilihan != 4);
         }
     }
 }

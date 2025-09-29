@@ -14,8 +14,8 @@ public class tugasloopfor {
             System.out.println("Masukan Inputnya!");
             jumlah = inputan.nextInt();
 
-            // Fungsi looping for
-            for (i = 12; i < jumlah; i--) {
+            // Fungsi looping for dengan input untuk nilai pertama dan loopingnya decerement, maksudnya nilai loopingnya mundur / berkurang
+            for (i = jumlah; i > 0; i--) {
                 System.out.println("i = " + i);
             }
         }

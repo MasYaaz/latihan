@@ -7,7 +7,7 @@ public class tugasloopwhile {
     public static void main(String args[]) {
 
         // Deklarasi Variabel
-        int jumlah, hitung = 0;
+        int jumlah, hitung = 1;
 
         // Fungsi try scanner
         try (Scanner inputan = new Scanner(System.in)) {
@@ -16,8 +16,8 @@ public class tugasloopwhile {
             char huruf = 'A';
 
             // Fungsi looping while dengan output huruf berdasarkan jumlah huruf yang diinput
-            while (hitung < jumlah) {
-                System.out.println(huruf);
+            while (hitung <= jumlah) {
+                System.out.print(huruf);
                 huruf++;
                 hitung++;
             }
