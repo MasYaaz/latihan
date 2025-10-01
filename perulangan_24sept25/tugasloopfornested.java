@@ -1,4 +1,4 @@
-package prodas_24sept25;
+package perulangan_24sept25;
 
 public class tugasloopfornested {
 

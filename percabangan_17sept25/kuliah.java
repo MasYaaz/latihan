@@ -1,4 +1,4 @@
-package prodas_17sept25;
+package percabangan_17sept25;
 
 import java.util.Scanner;
 
