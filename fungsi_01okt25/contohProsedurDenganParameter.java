@@ -3,7 +3,7 @@ package fungsi_01okt25;
 import java.util.Scanner;
 
 // Deklarasi kelas
-public class contohProsedurDenganParameter {
+public class ContohProsedurDenganParameter {
 
     // Prosedur hitung luas persegi
     void hitungLuasPersegi(int sisi) {
@@ -15,7 +15,7 @@ public class contohProsedurDenganParameter {
     public static void main(String[] args) {
         // Try untuk tampilin scanner
         try (Scanner inputan = new Scanner(System.in)) {
-            contohProsedurDenganParameter p = new contohProsedurDenganParameter();
+            ContohProsedurDenganParameter p = new ContohProsedurDenganParameter();
             System.out.println("masukkan nilai sisi persegi!");
 
             // Inputan scanner

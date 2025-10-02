@@ -2,21 +2,31 @@ package fungsi_01okt25;
 
 import java.util.Scanner;
 
-public class contohFungsiTanpaParameter {
+public class ContohFungsiTanpaParameter {
     int sisi;
 
     // Fungsi
     int hitungLuasPersegi(){
         int hasil = sisi * sisi;
-        System.out.println("Luas Persegi = " + hasil +"cm");
         return hasil;
     };
     public static void main(String[] args) {
         try (Scanner inputan = new Scanner(System.in)){
+
+            // Buat objeknya fungsi
+            ContohFungsiTanpaParameter f = new ContohFungsiTanpaParameter();
+
+            // Tulisan diatas inputan
             System.out.println("Masukkan sisi persegi!");
-            contohFungsiTanpaParameter f = new contohFungsiTanpaParameter();
+            
+            // Inputan Scanner
             f.sisi = inputan.nextInt();
-            f.hitungLuasPersegi();
+
+            // Buat variabel luas untuk simpan hasil return
+            int luas = f.hitungLuasPersegi();
+
+            // Cetak nilai luas
+            System.out.println("Luas Persegi = " + luas +"cm");
         }
     }
 }

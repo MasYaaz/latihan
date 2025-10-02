@@ -3,7 +3,7 @@ package fungsi_01okt25;
 import java.util.Scanner;
 
 // deklarasi kelas
-public class contohProsedurTanpaParameter {
+public class ContohProsedurTanpaParameter {
     // variabel sisi
     int sisi;
 
@@ -21,7 +21,7 @@ public class contohProsedurTanpaParameter {
     public static void main(String[] args) {
 
         // deklarasi untuk class jadi p biar lebih singkat
-        contohProsedurTanpaParameter p = new contohProsedurTanpaParameter();
+        ContohProsedurTanpaParameter p = new ContohProsedurTanpaParameter();
 
         // Try untuk nambahin Scanner
         try (Scanner inputan = new Scanner(System.in)){

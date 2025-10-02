@@ -9,8 +9,10 @@ public class switch_lampulalin {
         try (Scanner scan = new Scanner(System.in)) {
             System.out.println("Warna Lampu Lalu Lintas :");
 
-            // Deklarasi Variabel
+            // Scanner input
             String lampu = scan.next();
+
+            // Percabangan Switch
             String hasil = switch (lampu) {
                 case "Merah" ->
                     "Berhenti Dulu Mas!";
@@ -22,7 +24,7 @@ public class switch_lampulalin {
                     "Lampunya Mati";
             };
 
-            // Output
+            // Output dengan cetak nilai hasil
             System.out.println(hasil);
         }
     }

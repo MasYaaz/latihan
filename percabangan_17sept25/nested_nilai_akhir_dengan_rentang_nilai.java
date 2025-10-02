@@ -14,7 +14,7 @@ public class nested_nilai_akhir_dengan_rentang_nilai {
             int nilai = scan.nextInt();
             String hasil;
 
-            // Kondisi if else nested
+            // Percabangan if else nested
             if (nilai == 100 && nilai >= 95) {
                 hasil = "Nilai A+";
             } else if (nilai <= 90 && nilai >= 85) {
@@ -36,6 +36,8 @@ public class nested_nilai_akhir_dengan_rentang_nilai {
             } else {
                 hasil = "Anda Salah Input Nilai!!";
             }
+
+            // Cetak nilai hasil
             System.out.println(hasil);
         }
     }

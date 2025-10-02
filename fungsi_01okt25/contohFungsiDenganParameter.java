@@ -2,12 +2,11 @@ package fungsi_01okt25;
 
 import java.util.Scanner;
 
-public class contohFungsiDenganParameter {
+public class ContohFungsiDenganParameter {
 
     // Fungsi luas persegi
     int hitungLuasPersegi(int sisi){
         int hasil = sisi * sisi;
-        System.out.println("Luas Persegi = " + hasil + " cm");
         return hasil;
     }
 
@@ -17,8 +16,8 @@ public class contohFungsiDenganParameter {
         // Try untuk panggil scanner
         try(Scanner inputan = new Scanner(System.in)){
 
-            // Deklarasi class biar singkat
-            contohFungsiDenganParameter c = new contohFungsiDenganParameter();
+            // Buat objek (karena gak static)
+            ContohFungsiDenganParameter c = new ContohFungsiDenganParameter();
 
             // Tulisan diatas inputan
             System.out.println("Masukkan luas persegi !");
@@ -26,8 +25,12 @@ public class contohFungsiDenganParameter {
             // Tempat inputan muncul
             int sisi = inputan.nextInt();
 
-            // Jalankan fungsinya
-            c.hitungLuasPersegi(sisi);
+            // Buat variabel luas untuk menyimpan nilai return fungsi hitung luas persegi
+            int luas = c.hitungLuasPersegi(sisi);
+
+            // Cetak hasil rumus tadi
+            System.out.println("Luas Persegi = " + luas + " cm");
+
         }
     }
 }

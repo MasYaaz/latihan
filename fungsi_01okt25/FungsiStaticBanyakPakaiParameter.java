@@ -1,6 +1,6 @@
 package fungsi_01okt25;
 
-public class FungsiBanyakPakaiParameter {
+public class FungsiStaticBanyakPakaiParameter {
 
     // Fungsi luas persegi
     static int luasPersegi(int sisi){
