@@ -6,8 +6,7 @@ public class ContohFungsiDenganParameter {
 
     // Fungsi luas persegi
     int hitungLuasPersegi(int sisi){
-        int hasil = sisi * sisi;
-        return hasil;
+        return sisi * sisi;
     }
 
     // Fungsi buat jalanin

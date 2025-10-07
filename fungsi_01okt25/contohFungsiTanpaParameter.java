@@ -7,8 +7,7 @@ public class ContohFungsiTanpaParameter {
 
     // Fungsi
     int hitungLuasPersegi(){
-        int hasil = sisi * sisi;
-        return hasil;
+        return sisi * sisi;
     };
     public static void main(String[] args) {
         try (Scanner inputan = new Scanner(System.in)){

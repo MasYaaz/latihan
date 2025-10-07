@@ -4,17 +4,17 @@ public class FungsiStaticBanyakPakaiParameter {
 
     // Fungsi luas persegi
     static int luasPersegi(int sisi){
-        return = sisi * sisi;
+        return sisi * sisi;
     }
 
     // Fungsi luas segitiga
     static double luasSegitiga (int alas, int tinggi){
-        return = 0.5 * alas * tinggi;
+        return 0.5 * alas * tinggi;
     }
 
     // Fungsi volume kubus
     static int volumeKubus(int panjang, int lebar, int tinggi){
-        return = panjang * lebar * tinggi;
+        return panjang * lebar * tinggi;
     }
 
     public static void main(String[] args) {
