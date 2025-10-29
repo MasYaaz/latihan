@@ -1,7 +1,4 @@
-package array_15okt25;
-
 public class contoharray2dimensi {
-
     public static void main(String[] args) {
         // String[][] Teman = {{"73592", "Aflah", "SI"}, {"71111", "Mahdi", "IT"}};
         // System.out.println(Nomor[1][2]);

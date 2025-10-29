@@ -1,5 +1,3 @@
-package array_15okt25;
-
 public class contoharray3dimensi {
 
     public static void main(String[] args) {

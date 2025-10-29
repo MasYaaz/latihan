@@ -1,5 +1,3 @@
-package array_15okt25;
-
 public class tugasarray2dimensi {
     public static void main(String[] args) {
         // Deklarasi variabel String 2 dimensi

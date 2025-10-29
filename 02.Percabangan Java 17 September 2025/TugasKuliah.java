@@ -2,7 +2,7 @@ package percabangan_17sept25;
 
 import java.util.Scanner;
 
-public class kuliah {
+public class TugasKuliah {
 
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {

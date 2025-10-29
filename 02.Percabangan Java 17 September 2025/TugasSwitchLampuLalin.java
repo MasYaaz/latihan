@@ -2,7 +2,7 @@ package percabangan_17sept25;
 
 import java.util.Scanner;
 
-public class switch_lampulalin {
+public class TugasSwitchLampuLalin {
 
     public static void main(String[] args) {
         // Fungsi Try yang didalamnya ada scanner

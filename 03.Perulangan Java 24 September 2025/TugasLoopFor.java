@@ -2,7 +2,7 @@ package perulangan_24sept25;
 
 import java.util.Scanner;
 
-public class tugasloopfor {
+public class TugasLoopFor {
 
     public static void main(String[] args) {
 

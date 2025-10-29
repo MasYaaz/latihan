@@ -2,7 +2,7 @@ package percabangan_17sept25;
 
 import java.util.Scanner;
 
-public class nested_nilai_akhir_dengan_rentang_nilai {
+public class TugasNestedNilaiAkhirDenganRentangNilai {
 
     public static void main(String[] args) {
 

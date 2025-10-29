@@ -1,5 +1,3 @@
-package array_15okt25;
-
 public class tugasarray1dimensi {
     public static void main(String[] args) {
         // Deklarasi variabel array 1 dimensi

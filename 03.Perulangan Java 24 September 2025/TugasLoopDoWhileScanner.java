@@ -2,7 +2,7 @@ package perulangan_24sept25;
 
 import java.util.Scanner;
 
-public class tugasloopdowhilescanner {
+public class TugasLoopDoWhileScanner {
 
     public static void main(String args[]) {
         int pilihan;
