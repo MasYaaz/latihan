@@ -1,6 +1,4 @@
-package perulangan_24sept25;
-
-public class loopingfor {
+public class LoopingFor {
 
     public static void main(String args[]) {
         // Deklarasi

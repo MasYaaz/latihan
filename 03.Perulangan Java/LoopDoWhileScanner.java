@@ -1,8 +1,6 @@
-package perulangan_24sept25;
-
 import java.util.Scanner;
 
-public class loopdowhilescanner {
+public class LoopDoWhileScanner {
 
     public static void main(String args[]) {
         // Deklarasi Variabel

@@ -1,6 +1,4 @@
-package perulangan_24sept25;
-
-public class loopwhile {
+public class LoopWhile {
 
     public static void main(String args[]) {
         // Deklarasi

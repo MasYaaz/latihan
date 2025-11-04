@@ -2,7 +2,7 @@
 
 Repositori ini adalah dokumentasi tugas Pemrograman Dasar yang didalamnya beberapa modul sebagai berikut:
 
-  01. Pengenalan Java
+  01. Pengenalan Java (Tiga Pertemuan)
 
   02. Percabangan Java (17 September 2025)
 
