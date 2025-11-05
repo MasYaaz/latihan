@@ -4,16 +4,16 @@ public class TugasMergeSort {
         double jarakkota[] = {98.5, 76.2, 25.0, 12.75, 54.4};
         int n = jarakkota.length;
 
-        System.out.println("Jarak Kota Sebelum Diurutkan =");
+        System.out.println("== Jarak Kota Sebelum Diurutkan ==");
         for (double a : jarakkota) {
-            System.out.print(a + " ");
+            System.out.print(a + "km ");
         }
 
         mergeSort(jarakkota, 0, n - 1);
 
-        System.out.println("\nJarak Kota Setelah Diurutkan =");
+        System.out.println("\n\n== Jarak Kota Setelah Diurutkan ==");
         for (double a : jarakkota) {
-            System.out.print(a + " ");
+            System.out.print(a + "km ");
         }
     }
 

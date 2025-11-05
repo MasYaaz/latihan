@@ -1,5 +1,3 @@
-package perulangan_24sept25;
-
 public class TugasLoopForNested {
 
     public static void main(String args[]) {

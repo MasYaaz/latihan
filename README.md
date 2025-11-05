@@ -15,3 +15,5 @@ Repositori ini adalah dokumentasi tugas Pemrograman Dasar yang didalamnya bebera
   06. Tipe Data String (22 Oktober 2025)
 
   07. Sorting Java (29 Oktober 2025)
+
+  08. Exception (05 November 2025)

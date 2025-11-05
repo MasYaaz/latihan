@@ -1,5 +1,3 @@
-package perulangan_24sept25;
-
 import java.util.Scanner;
 
 public class TugasLoopWhile {
