@@ -28,6 +28,7 @@ public class ExceptionHandling {
         System.out.println("Hasil Pembagian = " + hasil);
         System.out.println("Pernyataan Setelah Bebas Dari Exception");
     }
+    
     // Soal
     // A. Lakukan kompilasi dari eksekusi program kemudian tunjukkan hasilnya!
     // B. Berikan penjelasan terkait jalannya program ini!
@@ -38,6 +39,7 @@ public class ExceptionHandling {
     //    dijalankan karena error
     // B. Program dijalankan kemudian sistem mengenali error dan kemudian runningnya
     //    terhenti dengan pesan exception error
+
     void WithExceptionHandling() {
         System.out.println("\n ***** PROGRAM DENGAN EXCEPTION HANDLING *****");
         try {

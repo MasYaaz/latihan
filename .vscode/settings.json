@@ -1,3 +1,8 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.sourcePaths": [
+    "08.Exception/Tugas Mandiri",
+    "08.Exception/Tugas Kelompok",
+    "09.Java GUI"
+  ]
 }
