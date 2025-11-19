@@ -17,3 +17,7 @@ Repositori ini adalah dokumentasi tugas Pemrograman Dasar yang didalamnya bebera
   07. Sorting Java (29 Oktober 2025)
 
   08. Exception (05 November 2025)
+
+  09. Java GUI Dengan Swing (12 November 2025)
+
+  10. Database MySQL Dengan Java (19 November 2025)
