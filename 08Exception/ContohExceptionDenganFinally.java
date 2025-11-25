@@ -7,7 +7,7 @@ public class ContohExceptionDenganFinally {
             a[5] = 0;
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Terjadi Exception karena Array melebihi kapasitas");
-        } finally{
+        } finally {
             System.out.println("Outputnya Finally");
         }
     }
