@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class switch1 {
+public class ContohSwitch {
 
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
